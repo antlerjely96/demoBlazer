@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DELL\\RiderProjects\\demoBlazor\\DemoCRUD\\DemoCRUD\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DemoCRUD.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DemoCRUD.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\RiderProjects\\demoBlazor\\DemoCRUD\\DemoCRUD\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\RiderProjects\\demoBlazor\\DemoCRUD\\DemoCRUD\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\RiderProjects\\demoBlazor\\DemoCRUD\\DemoCRUD\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\RiderProjects\\demoBlazor\\DemoCRUD\\DemoCRUD\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DemoCRUD.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DemoCRUD.props",
+      "PackagePath": "build\\DemoCRUD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DemoCRUD.props",
+      "PackagePath": "buildMultiTargeting\\DemoCRUD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DemoCRUD.props",
+      "PackagePath": "buildTransitive\\DemoCRUD.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
