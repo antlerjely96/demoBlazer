@@ -7,35 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84a5f7f0-d255-47d4-baf6-5c048fccfa44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Edit.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DEmoCRUD_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DEmoCRUD_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Create.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Create.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Update.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/ref/DEmoCRUD_2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/ref/DEmoCRUD_2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/refint/DEmoCRUD_2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/refint/DEmoCRUD_2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DemoCRUD/.idea/.idea.DemoCRUD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/.idea/.idea.DemoCRUD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Components/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Components/App.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Components/Pages/Categories.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Components/Pages/Categories.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Data/AppDBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Data/AppDBContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Models/Category.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Services/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Services/CategoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Services/ICategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/Services/ICategoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/bin/Debug/net8.0/DemoCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/bin/Debug/net8.0/DemoCRUD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/bin/Debug/net8.0/DemoCRUD.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/bin/Debug/net8.0/DemoCRUD.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/bin/Debug/net8.0/DemoCRUD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/bin/Debug/net8.0/DemoCRUD.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/DemoCRUD.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/DemoCRUD.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/DemoCRUD.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/DemoCRUD.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/DemoCRUD.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/DemoCRUD.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/DemoCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/DemoCRUD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/DemoCRUD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/DemoCRUD.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/ref/DemoCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/ref/DemoCRUD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/refint/DemoCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/Debug/net8.0/refint/DemoCRUD.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoCRUD/DemoCRUD/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4060.14235/Category.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa4060.15249/DBMySQLUltils.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -110,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765147572584</updated>
       <workItem from="1765147617157" duration="3649000" />
-      <workItem from="1765158566890" duration="5545000" />
+      <workItem from="1765158566890" duration="6843000" />
     </task>
     <servers />
   </component>
@@ -138,7 +132,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Create.razor</url>
-          <line>29</line>
+          <line>24</line>
           <properties documentPath="C:\Users\DELL\RiderProjects\demoBlazor\DEmoCRUD_2\DEmoCRUD_2\Components\Pages\Categories\Create.razor" initialLine="20" isMultiMethodBreakpoint="true">
             <option name="multiMethodBreakpoint" value="true" />
             <startOffsets>

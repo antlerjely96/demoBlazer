@@ -1,11 +1,12 @@
-﻿@page "/categories/create"
+﻿@page "/categories/edit/{Id:int}"
 @rendermode InteractiveServer
 @using DEmoCRUD_2.Models
 @using DEmoCRUD_2.Services
 @inject ICategoryService CategoryService
-<h3>Create</h3>
 
-<EditForm Model="category" FormName="categoryCreate" OnValidSubmit="SaveCategory">
+<h3>Update</h3>
+
+<EditForm Model="category" FormName="categoryEdit" OnValidSubmit="SaveCategory">
     <DataAnnotationsValidator/>
     <div class="form-group">
         <label>Name:</label>
@@ -22,11 +23,17 @@
 @code {
     public Category category = new Category();
     [Inject] private NavigationManager Navigation { get; set; }
-
+    [Parameter] public int Id { get; set; }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        category = await CategoryService.GetCategoryByIdAsync(Id);
+    }
+    
     private async Task SaveCategory()
     {
-        Console.WriteLine("category name = " + category.Name);
-        await CategoryService.AddCategoryAsync(category);
+        category.Id = Id;
+        await CategoryService.UpdateCategoryAsync(category);
         Navigation.NavigateTo("/categories", true); 
         
     }
