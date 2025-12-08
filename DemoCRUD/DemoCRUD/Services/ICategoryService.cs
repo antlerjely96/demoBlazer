@@ -5,8 +5,8 @@ namespace DemoCRUD.Services;
 public interface ICategoryService
 {
     Task<List<Category>> GetAllCategoryAsync();
-    Task<Category?> GetCategoryByIdAsync(int Id);
-    Task<Category> CreateCategoryAsync(Category category);
+    Task<Category?> GetCategoryByIdAsync(int id);
+    Task CreateCategoryAsync(Category category);
     Task UpdateCategoryAsync(Category category);
-    Task DeleteCategoryAsync(int Id);
+    Task DeleteCategoryAsync(int id);
 }

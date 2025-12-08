@@ -5,35 +5,38 @@
 
 <h3>Quản lý Danh mục (Blazor Server CRUD)</h3>
 
+<EditForm Model="@categoryToEdit" OnValidSubmit="SaveCategory" FormName="categoriesForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Tên Danh mục:</label>
+        <div class="col-sm-6">
+            <InputText class="form-control" @bind-Value="categoryToEdit.Name" />
+        </div>
+        <div class="col-sm-4">
+            <button type="submit" class="btn btn-primary">
+                @(categoryToEdit.Id == 0 ? "Thêm mới" : "Cập nhật")
+            </button>
+
+            @if (categoryToEdit.Id != 0)
+            {
+                <button type="button" class="btn btn-secondary" @onclick="ResetForm">Hủy</button>
+            }
+        </div>
+    </div>
+    <p>Debug Name (live): '@categoryToEdit.Name'</p>
+    <ValidationMessage For="@(() => categoryToEdit.Name)" />
+</EditForm>
+
+<hr />
+
 @if (categories == null)
 {
-    <p><em>Đang tải danh mục...</em></p>
+    <p><em>Đang tải dữ liệu...</em></p>
 }
 else
 {
-    <EditForm Model="@categoryToEdit" OnValidSubmit="SaveCategory">
-        <DataAnnotationsValidator />
-        <ValidationSummary />
-
-        <div class="form-group row">
-            <label for="name" class="col-sm-2 col-form-label">Tên Danh mục:</label>
-            <div class="col-sm-6">
-                <InputText id="name" class="form-control" @bind-Value="categoryToEdit.Name" />
-            </div>
-            <div class="col-sm-4">
-                <button type="submit" class="btn btn-primary">
-                    @(categoryToEdit.Id == 0 ? "Thêm mới" : "Cập nhật")
-                </button>
-                @if (categoryToEdit.Id != 0)
-                {
-                    <button type="button" class="btn btn-secondary" @onclick="ResetForm">Hủy</button>
-                }
-            </div>
-        </div>
-    </EditForm>
-
-    <hr />
-
     <table class="table table-striped mt-4">
         <thead>
             <tr>
@@ -49,8 +52,8 @@ else
                     <td>@category.Id</td>
                     <td>@category.Name</td>
                     <td>
-                        <button class="btn btn-sm btn-warning" @onclick="(() => EditCategory(category))">Sửa</button>
-                        <button class="btn btn-sm btn-danger" @onclick="(() => DeleteCategory(category.Id))">Xóa</button>
+                        <button class="btn btn-warning btn-sm" @onclick="(() => EditCategory(category))">Sửa</button>
+                        <button class="btn btn-danger btn-sm" @onclick="(() => DeleteCategory(category.Id))">Xóa</button>
                     </td>
                 </tr>
             }
@@ -60,57 +63,62 @@ else
 
 @code {
     private List<Category>? categories;
-    private Category categoryToEdit = new Category();
+    private Category categoryToEdit;
 
     protected override async Task OnInitializedAsync()
     {
+        categoryToEdit = new Category();
         await LoadCategories();
     }
 
-    // READ
     private async Task LoadCategories()
     {
         categories = await CategoryService.GetAllCategoryAsync();
     }
 
-    // CREATE và UPDATE
     private async Task SaveCategory()
     {
         if (categoryToEdit.Id == 0)
         {
-            // CREATE
             await CategoryService.CreateCategoryAsync(categoryToEdit);
         }
         else
         {
-            // UPDATE
             await CategoryService.UpdateCategoryAsync(categoryToEdit);
         }
 
         await LoadCategories();
         ResetForm();
+        StateHasChanged();
     }
 
-    // Hỗ trợ Sửa
     private void EditCategory(Category category)
     {
-        // Tạo một bản sao để tránh thay đổi trực tiếp
-        categoryToEdit = new Category { Id = category.Id, Name = category.Name };
+        categoryToEdit = new Category
+        {
+            Id = category.Id,
+            Name = category.Name
+        };
     }
 
-    // DELETE
     private async Task DeleteCategory(int id)
     {
-        // Lưu ý: Blazor Server không có sẵn JS.InvokeAsync<bool>("confirm")
-        // Bạn cần tự xây dựng dialog hoặc bỏ qua bước xác nhận.
-        // Để đơn giản, ta xóa thẳng.
         await CategoryService.DeleteCategoryAsync(id);
         await LoadCategories();
+        StateHasChanged();
     }
 
-    // Đặt lại Form
     private void ResetForm()
     {
         categoryToEdit = new Category();
+    }
+    
+    private void UpdateName(ChangeEventArgs e)
+    {
+    // Cập nhật giá trị vào model
+        categoryToEdit.Name = e.Value?.ToString() ?? string.Empty;
+
+    // Buộc component render lại (rất quan trọng cho live update)
+        StateHasChanged(); 
     }
 }

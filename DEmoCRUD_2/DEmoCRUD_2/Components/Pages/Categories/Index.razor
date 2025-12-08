@@ -1,0 +1,44 @@
+﻿@page "/categories"
+@using DEmoCRUD_2.Models
+@using DEmoCRUD_2.Services
+@inject ICategoryService CategoryService
+<h3>Category List</h3>
+
+<a href="/categories/create" class="btn btn-primary">Add new</a>
+<table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th style="width:150px;"></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var category in categories)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.Name</td>
+                <td>
+                    <!-- <button class="btn btn-warning btn-sm me-2" @onclick="() => Edit(c)">Edit</button> -->
+                    <button class="btn btn-danger btn-sm" @onclick="() => Delete(category.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+@code {
+    List<Category> categories = new List<Category>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await CategoryService.GetAllCategoryAsync();
+    }
+
+    private async Task Delete(int Id)
+    {
+        await CategoryService.DeleteCategoryAsync(Id);
+        categories = await CategoryService.GetAllCategoryAsync();
+    }
+}

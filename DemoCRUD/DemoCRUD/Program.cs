@@ -4,7 +4,7 @@ using DemoCRUD.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")!;
 
 //Add DB context
 builder.Services.AddDbContext<AppDBContext>(options => 

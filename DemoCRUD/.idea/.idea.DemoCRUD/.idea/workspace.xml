@@ -6,7 +6,28 @@
     <projectFile profileName="https">DemoCRUD/DemoCRUD.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4068343-0d8a-4fd0-88ef-1f57d27a7139" name="Changes" comment="" />
+    <list default="true" id="b4068343-0d8a-4fd0-88ef-1f57d27a7139" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DemoCRUD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DemoCRUD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/Components/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/Components/App.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/Components/Pages/Categories.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/Components/Pages/Categories.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/Data/AppDBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/Data/AppDBContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/Services/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/Services/CategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/Services/ICategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/Services/ICategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/bin/Debug/net8.0/DemoCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/bin/Debug/net8.0/DemoCRUD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/bin/Debug/net8.0/DemoCRUD.exe" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/bin/Debug/net8.0/DemoCRUD.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/bin/Debug/net8.0/DemoCRUD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/bin/Debug/net8.0/DemoCRUD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/DemoCRUD.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/DemoCRUD.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/DemoCRUD.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/DemoCRUD.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/DemoCRUD.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/DemoCRUD.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/DemoCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/DemoCRUD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/DemoCRUD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/DemoCRUD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/ref/DemoCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/ref/DemoCRUD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/refint/DemoCRUD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/obj/Debug/net8.0/refint/DemoCRUD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoCRUD/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DemoCRUD/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,15 +113,48 @@
       <workItem from="1763713979431" duration="60000" />
       <workItem from="1763714073351" duration="1031000" />
       <workItem from="1763715840369" duration="4807000" />
-      <workItem from="1763950848569" duration="1335000" />
+      <workItem from="1763950848569" duration="14811000" />
+      <workItem from="1765156292169" duration="2962000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DemoCRUD/Components/Pages/Categories.razor</url>
+          <line>77</line>
+          <properties documentPath="C:\Users\DELL\RiderProjects\demoBlazor\DemoCRUD\DemoCRUD\Components\Pages\Categories.razor" initialLine="74" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

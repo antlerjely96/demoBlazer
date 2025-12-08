@@ -12,36 +12,35 @@ public class CategoryService : ICategoryService
     {
         _context = context;
     }
-    
+
     public async Task<List<Category>> GetAllCategoryAsync()
     {
         return await _context.Categories.ToListAsync();
     }
 
-    public async Task<Category?> GetCategoryByIdAsync(int Id)
+    public async Task<Category?> GetCategoryByIdAsync(int id)
     {
-        return await _context.Categories.FindAsync(Id);
+        return await _context.Categories.FindAsync(id);
     }
 
-    public async Task<Category> CreateCategoryAsync(Category category)
+    public async Task CreateCategoryAsync(Category category)
     {
         _context.Categories.Add(category);
         await _context.SaveChangesAsync();
-        return category;
     }
 
     public async Task UpdateCategoryAsync(Category category)
     {
-        _context.Entry(category).State = EntityState.Modified;
+        _context.Categories.Update(category);
         await _context.SaveChangesAsync();
     }
 
-    public async Task DeleteCategoryAsync(int Id)
+    public async Task DeleteCategoryAsync(int id)
     {
-        var category = await _context.Categories.FindAsync(Id);
-        if (category != null)
+        var cate = await _context.Categories.FindAsync(id);
+        if (cate != null)
         {
-            _context.Categories.Remove(category);
+            _context.Categories.Remove(cate);
             await _context.SaveChangesAsync();
         }
     }
