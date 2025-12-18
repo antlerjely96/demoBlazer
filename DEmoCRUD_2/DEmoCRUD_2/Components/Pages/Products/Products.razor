@@ -1,0 +1,52 @@
+﻿@page "/products"
+@rendermode InteractiveServer
+@using DEmoCRUD_2.Models
+@using DEmoCRUD_2.Services
+@using Category = DEmoCRUD_2.Components.Pages.Category
+@inject IProductService ProductService
+<h3>Products</h3>
+
+<a href="/products/create" class="btn btn-primary">Create</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Category</th>
+            <th style="width:150px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in products)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Quantity</td>
+                <td>@product.category?.Name</td>
+                <td>
+                    <a class="btn btn-warning btn-sm me-2" href="/products/edit/@product.Id">Edit</a>
+                    <button class="btn btn-danger btn-sm" @onclick="() => DeleteProduct(product.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    List<Product> products = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await ProductService.GetAllProductAsync();
+    }
+
+    private async Task DeleteProduct(int Id)
+    {
+        await ProductService.DeleteProductAsync(Id);
+        products = await ProductService.GetAllProductAsync();
+    }
+}

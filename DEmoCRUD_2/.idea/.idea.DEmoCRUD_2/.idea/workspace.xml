@@ -7,17 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84a5f7f0-d255-47d4-baf6-5c048fccfa44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Edit.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DEmoCRUD_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DEmoCRUD_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Create.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Create.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Index.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/Components/Pages/Categories/Update.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/Components/Layout/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/Components/Layout/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/Data/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/bin/Debug/net8.0/DEmoCRUD_2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/DEmoCRUD_2/obj/Debug/net8.0/DEmoCRUD_2.sourcelink.json" afterDir="false" />
@@ -104,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765147572584</updated>
       <workItem from="1765147617157" duration="3649000" />
-      <workItem from="1765158566890" duration="6843000" />
+      <workItem from="1765158566890" duration="11696000" />
     </task>
     <servers />
   </component>
